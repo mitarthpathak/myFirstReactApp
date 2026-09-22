@@ -5,6 +5,7 @@ import Footer from "./Footer"
 import Food from "./Food"
 import Card from "./Card";
 import Button from "./Button";
+import MyComponent from "./MyComponent";
 
 function App() {
   
@@ -16,6 +17,7 @@ function App() {
     <Card></Card>
     <Button></Button>
     <Footer></Footer>
+    <MyComponent></MyComponent>
     
     
     </>
