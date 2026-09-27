@@ -1,4 +1,4 @@
-import React, {use, useState} from "react";
+import React, {Component, use, useEffect, useState} from "react";
 
 function MyComponent(){
 
@@ -58,3 +58,7 @@ function MyComponent(){
 }
 
 export default MyComponent
+
+
+
+

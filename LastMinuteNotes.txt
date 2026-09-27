@@ -1,0 +1,33 @@
+
+//useEffect: it is a react hook that tells React to do some code when:
+//                         this Component re-renders
+//                         this Component mounts
+//                         the state of a value
+// //think of it as a side function 
+// useState(variable, setterfunction){}
+// useEffect(function, dependencies){}
+
+
+// syntax of using useEffect:
+// useEffect(() => {
+
+// },[]);
+// isme [] iske andar dependencies hongi jab bhi uske andar
+
+// useEffect(() => {
+//   console.log("count change hone pe chala");
+// }, [count]);  // [count] = jab count badle tab
+//  kuch change hoga to curly brackets ke andar likha hua update hoga
+
+//render means jab koi useState ka setter call hota h tb hi re-render 
+// hota h, but DOM me update nhi hota 
+
+// Mount matlb jahb usi cheez ko DOM me update krde apan
+// useEffect Mount, render and puri react ki lifecycle par work krta h
+// event listener mouse , keyboard ke movement/updationpr kaam krta
+
+// useContext : instead of passing variable/data as parameter from component to 
+// component we use the useContext to drill the variable 
+ 
+// useRef is useReference jo re-render nhi hone deta h bas ek object 
+// return karta h jo ki uski property ko update karta h 
